@@ -1,0 +1,286 @@
+
+@media only screen and (max-width: 768px) {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    html {
+        font-size: 62.5%;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Montserrat;
+    }
+    p {
+        font-size: 1.6rem;
+        font-weight: 300;
+        color: #666;
+        font-family: 'Roboto';
+
+    }
+    /* CSS PHẦN HEADER */
+
+    #header {
+        padding: 2rem 5rem;
+    }
+
+    #header .logo {
+        display: none;
+    }
+
+    #header nav ul li {
+        margin-left: 1rem;
+    }
+
+    #header nav ul li a {
+        display: inline-block;
+        color: #ffffff;
+        font-size: 1rem;
+    }
+
+    /* CSS PHẦN BANNER */
+
+
+    .banner .content h2 {
+        font-size: 1.8rem;
+        color: #ffffff;
+    }
+
+    .banner .content .btn {
+        font-size: 1.8rem;
+        color: #ffffff;
+        background: #ff0157;
+        border: 1px solid #ffffff;
+        border-radius: 1rem;
+        display: inline-block;
+        padding: 1rem;
+        margin-top: 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center ;
+        letter-spacing: 0.2rem;
+        transition: 0.5s;
+    }
+
+    .banner .content .btn:hover {
+        letter-spacing: 0;
+    }
+
+    /* CSS PHẦN ABOUT */
+
+    section {
+        padding: 4rem;
+    }
+
+    .row .col-md-5 .imgBx>img {
+        width: 100%;
+        border: 1px solid #337ab7;
+        border-radius: 1rem;
+    }
+
+    .titleText {
+        color: #111111;
+        font-size: 1.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-top: 1rem;
+    }
+
+    .titleText span {
+        color: #ff0157;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+
+    #services {
+        padding: 4rem;
+    }
+    
+    #services .col-md-12 h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: #f53e2d;
+        border-bottom: 0.1rem solid #000; 
+        line-height: 0.1em;
+        margin: 0 0 5rem 0;
+        
+    }
+
+    /* CSS PHẦN FOOTER */
+
+    #footer .row {
+        padding: 4rem;
+    }
+
+    #footer .row .col-md-4>h2 {
+        font-size: 1.8rem;
+        color: #fd7e14;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 2rem 0;
+    }
+
+    /* RESPONSIVE TRANG GIỚI THIỆU */
+    /* CSS PHẦN ABOUT */
+
+    #about{
+        padding: 4rem 0;
+    }
+
+    #about .text-center {
+        margin-top: 3rem;
+        font-size: 4rem;
+        color:#f6442e;
+    }
+
+    #about .row {
+        padding: 4rem;
+    }
+
+    .row .col-xs-12 >img {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #337ab7;
+        border-radius: 1rem;
+    }
+
+    .row .col-md-8 {
+        width: 100%;
+        text-align: left;
+        margin-top: 1rem;
+    }
+
+    /* CSS PHẦN TẦM NHÌN SỨ MỆNH */
+    #sumenh {
+        padding: 0rem 4rem;
+    }
+
+    #sumenh .text-center {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        color: #f6442e;
+    }
+
+    #sumenh .row .col-md-12 h2,h3 {
+        font-size: 1.8rem;
+        color: #3b9d9d;
+        font-weight: 700;
+    }
+
+    /* CSS PHẦN ĐỘI NGŨ CHUYÊN GIA */
+
+    #chuyengia {
+        padding: 0rem 4rem 4rem;
+    }
+
+    #chuyengia .text-center {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        color: #f6442e;
+    }
+
+    #chuyengia .row .col-md-5 img {
+        width: 100%;
+        height: auto;
+    }
+
+    #chuyengia .row .col-md-4 {
+        width: 100%;
+    }
+
+    #chuyengia .row .col-md-4 img {
+        width: 100%;
+        height: auto;
+        border-radius: 2rem; 
+        cursor: pointer; 
+    }
+
+    #chuyengia .row .col-md-4 h3 {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-top: 2rem;
+        color: #05a65d;
+    }
+
+    #chuyengia .row .col-md-4 h3:hover {
+        color: #f53e2d;
+    }
+
+    #chuyengia .row .col-md-4 .icon-contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+    }
+
+    #chuyengia .row .col-md-4 .icon-contact .icon {
+        margin: 0 2rem;
+    }
+    
+    /* RESPONSIVE TRANG DỊCH VỤ */
+    .container {
+        margin-top: 8rem;
+        padding: 2rem 4rem;
+    }
+    
+    .container .row {
+        margin: 2rem 0;
+        padding: 3rem 0;
+        border-bottom: 1px dashed #ccc;
+    }
+    
+    .container h2 {
+        text-align: center;
+        font-size: 3rem;
+        color: #f6442e;
+    }
+    
+    .container .row .col-md-9 h3 {
+        margin-top: 1rem;
+        font-size: 1.8rem;
+        color: #05a65d;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    #tuvan {
+        display: none;
+    }
+
+    /* RESPONSIVE TRANG ĐĂNG KÝ */
+
+    /* CSS form */
+
+    .contact-form {
+        margin-top: 10rem;
+        padding: 4rem;
+    }
+
+    .contact-form .row .col-md-7{
+        display: none;
+    }
+
+    .contact-form .row .col-md-5 h2 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #3ac9d7;
+    }
+    
+    .col-md-5 .form-group .form-control {
+        padding: 3rem 1rem;
+        font-size: 1.6rem;
+        border: none;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .col-md-5 .btn {
+        margin: 3rem 2rem 0rem 0rem;
+        width: 100%;
+        padding: 1rem 2rem;
+        font-size: 1.8rem;
+        border-radius: 4rem;
+    }
+}

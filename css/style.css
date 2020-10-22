@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html {
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #666;
+    font-family: 'Roboto';
+
+}
+/* CSS PHẦN HEADER */
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 10rem;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+#header .logo {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#header nav ul {
+    position: relative;
+    display: flex;
+    margin: 0;
+}
+
+#header nav ul li {
+    list-style: none;
+    margin-left: 3rem;
+}
+
+#header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    letter-spacing: 0.1rem;
+}
+
+#header nav ul li a:hover {
+    color:#f53e2d;
+}
+
+/* CSS PHẦN BANNER */
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(41,37,91,0.5), rgba(41,37,91,0.5)),url(https://d37v7cqg82mgxu.cloudfront.net/img/community-campfire.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    max-width: 900px;
+}
+
+.banner .content h2 {
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.banner .content p {
+    font-size : 1.8rem;
+    color: #ffffff;
+}
+
+.banner .content .btn {
+    font-size: 1.8rem;
+    color: #ffffff;
+    background: #ff0157;
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    transition: 0.5s;
+}
+
+.banner .content .btn:hover {
+    letter-spacing: 0.6rem;
+}
+
+/* CSS PHẦN ABOUT */
+
+section {
+    padding: 5rem;
+}
+
+#about .row {
+    width: 100%;
+    margin: 0;
+}
+
+.row .col-md-5 .imgBx>img {
+    width: 100%;
+    border: 1px solid #337ab7;
+    border-radius: 1rem;
+}
+
+.row .col-md-7 {
+    width: 100%;
+}
+
+.titleText {
+    color: #111111;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.titleText span {
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 2rem;
+}
+/* CSS PHẦN DỊCH VỤ */
+#services {
+    padding: 5rem;
+}
+
+#services .col-md-12 h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #f53e2d;
+    border-bottom: 0.1rem solid #000; 
+    line-height: 0.1em;
+    margin: 0 0 5rem 0;
+    
+}
+#services .col-md-12  h2 span {
+    background:#fff; 
+    padding:0 1rem; 
+}
+
+.col-md-3 .img-services {
+    width: 100%;
+    border: 1px solid #337ab7;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    overflow: hidden;
+    box-shadow: 0.2rem 0.2rem 0.7rem red;
+}
+
+.img-services img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.col-md-3 .text-center h3 {
+    color: #fe6332;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.col-md-3 .text-center h3:hover {
+    color: #337ab7;
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+
+/* CSS PHẦN TƯ VẤN */
+#tuvan {
+    background: #f6f8f9;
+}
+
+#tuvan .col-md-6 strong {
+    font-size: 2rem;
+    color: #f53e2d;
+}
+
+#tuvan .col-md-6 h2 {
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: #666;
+}
+
+#tuvan .col-md-6>img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.7rem #111;
+}
+/* CSS PHẦN FOOTER */
+
+#footer {
+    background-color: #110b40;
+}
+
+#footer .row {
+    padding: 5rem;
+}
+
+#footer .row .col-md-4>h2 {
+    font-size: 2rem;
+    color: #fd7e14;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 3.1rem;
+}
+#footer .row .quick_link>a {
+    display: block;
+    font-size: 1.6rem;
+    margin: 0.5rem 0;
+    text-decoration: none;
+    color: #ccc;
+}
+#footer .row .quick_link>a:hover {
+    color: #337ab7;
+}
+
+.row .col-md-4 .icon-contact {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.row .col-md-4 p {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.row .col-md-4 .icon {
+    width: 5rem;
+    font-size: 3rem;
+    margin-top: 1rem;
+    color: #fff;
+}
+.row .col-md-4 .icon:hover {
+    color: #f6442e;
+    transition: 0.5s;
+}
+
+.row .col-md-4 input[type="email"] {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    border: 0.1rem solid #e5ae58;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.row .col-md-4 textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 2rem 0;
+    height: 8rem;
+    font-size: 1.6rem;
+    border: 0.1rem solid #e5ae58;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+.row .col-md-4 .btn {
+    width: 10rem;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+
+.row .col-md-4 .btn:hover {
+    background-color: #f53e2d;
+    color: #000;
+    transition: 0.5s;
+}
+
+/* THE END */
+.the-end {
+    width: 100%;
+    height: 4rem;
+    background-color: #f5fcd3;
+}
+
+.the-end h2 {
+    font-size: 1.6rem;
+    color: #111;
+    text-align: center;
+    line-height: 4rem;
+}
+
+
+
+
+
+
+
