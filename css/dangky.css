@@ -100,7 +100,7 @@ p {
     margin: 0 5rem;
 }
 
-.address-info ul li>h5 {
+.address-info ul li>h4 {
     font-size: 2rem;
 }
 
@@ -109,7 +109,7 @@ p {
     color: #666;
 }
 
-.address-info ul li h5 .icon-contact {
+.address-info ul li h4 .icon-contact {
     color: #3ac9d7;
 }
 
