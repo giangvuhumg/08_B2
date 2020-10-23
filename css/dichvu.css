@@ -153,13 +153,13 @@ p {
 .the-end {
     width: 100%;
     height: 4rem;
-    background-color: #f5fcd3;
+    background-color: #353d4c;
     border-top: 1px solid #666;
 }
 
 .the-end h2 {
     font-size: 1.6rem;
-    color: #111;
+    color: #fff;
     text-align: center;
     line-height: 4rem;
 }
