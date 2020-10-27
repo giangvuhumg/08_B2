@@ -85,6 +85,7 @@ p {
     height: 100%;
     border: 1px solid #337ab7;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 .row .col-md-8 {

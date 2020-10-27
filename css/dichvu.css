@@ -89,6 +89,7 @@ p {
     width: 100%;
     height: auto;
     border : 2px dashed #ccc;
+    cursor: pointer;
 }
 
 .container .row .col-md-9 h3 {

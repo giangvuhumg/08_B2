@@ -132,6 +132,7 @@ section {
     width: 100%;
     border: 1px solid #337ab7;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 .row .col-md-7 {
@@ -178,6 +179,7 @@ section {
     margin: 2rem 0;
     overflow: hidden;
     box-shadow: 0.2rem 0.2rem 0.7rem red;
+    cursor: pointer;
 }
 
 .img-services img:hover {
@@ -218,6 +220,7 @@ section {
     height: auto;
     border-radius: 1rem;
     box-shadow: 0.2rem 0.2rem 0.7rem #111;
+    cursor: pointer;
 }
 /* CSS PHẦN FOOTER */
 
